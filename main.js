@@ -51,3 +51,18 @@ document.addEventListener("DOMContentLoaded", function () {
     loop:true
   });
 
+  var swiper = new Swiper(".action-slider", {
+    slidesPerView: 4,
+    spaceBetween: 100,
+    centeredSlides: true,
+    autoplay: {
+      delay: 4500,
+      disableOnInteraction: false,
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    loop:true
+  });
+

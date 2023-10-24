@@ -186,11 +186,14 @@ header .icons #menu-bars{
     padding: 4rem;
 }
 
-.anime .wrapper{
+.anime .swiper-wrapper{
     display: flex;
-    width: 0%;
-    position: relative;
+    height: 430px;
     transition: background-color 0.3s; /* Efek transisi latar belakang saat hover */
+}
+
+.anime .swiper-slide{
+    height: 100px;
 }
 
 .anime .box h2{
@@ -244,6 +247,71 @@ header .icons #menu-bars{
     color:#fff   ;
     text-decoration: none;
 }
+
+/* action section */
+
+.action .swiper-wrapper{
+    display: flex;
+    width: 0%;
+    height: 430px;
+    position: relative;
+    transition: background-color 0.3s; /* Efek transisi latar belakang saat hover */
+}
+
+.action .box h2{
+    opacity: 0;
+    background-color: white;
+    position: absolute;
+    width: 136%;
+    top: 100;
+    height: 4rem;
+    transform: skewY(-2deg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.box:hover{
+    background-color: #fff;
+}
+
+.box:hover h2 {
+    opacity: 1;
+}
+
+
+.action .content{
+    margin-top: 170px;
+}
+
+.action .box{
+    width: 325px;
+    height: 168px;
+    padding-top: 2px;
+    margin-left: 10px;
+}
+
+.action .content h3{
+    font-size: 1.7rem;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.action .content .btn{
+    position: absolute;
+    top: 310;
+}
+
+.action .content p{
+    font-size: 1.2rem;
+    color:#fff   ;
+    text-decoration: none;
+}
+
+/* child section */
 
 
 
